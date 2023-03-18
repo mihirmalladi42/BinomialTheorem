@@ -51,7 +51,7 @@ public class BinomialTheorem {
 			for (int i = 1; i < pascalTriangle.size()-1; i++) {
 				System.out.print(pascalTriangle.get(i) + "x^" + (n-(i+1)) + "*y^" + (i+1) + " + ");
 			}
-			System.out.println(pascalTriangle.get(0) + "x*y^" + (n-1) + " + y^" + n);
+			System.out.println(pascalTriangle.get(0) + "xy^" + (n-1) + " + y^" + n);
 		}
 		
 		System.out.println("Do you want to calculate another equation using the binomial theorem?");
